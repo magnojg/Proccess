@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:src="@drawable/laywer" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Bem vindo a galeria de processos. Aqui você pode organizar suas fotos e planejar melhor o que fazer com elas." />
+
+    <Button
+        android:id="@+id/mainScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela Inicial" />
+
+    <Button
+        android:id="@+id/registry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar-se" />
+
+</LinearLayout>
